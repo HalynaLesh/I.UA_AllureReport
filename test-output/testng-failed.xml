@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="eleks.com.rerunFailed.AnnotationTransformer"/>
+  </listeners>
+  <test name="SentEmailsPage(failed)">
+    <classes>
+      <class name="eleks.com.pages_tests.SentEmailsPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="negative_verifySubject_test"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SentEmailsPage_Test -->
+    </classes>
+  </test> <!-- SentEmailsPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
